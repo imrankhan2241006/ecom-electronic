@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyStore</div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="cart.html" class="cart">
+                🛒 Cart <span id="cart-count">0</span>
+            </a>
+        </nav>
+    </header>
+    <section class="hero">
+
+        <div class="hero-content">
+            <h1>Shop Smart, Shop Easy</h1>
+
+            <p>
+                Discover quality products at the best prices.
+            </p>
+
+            <a href="#products" class="shop-btn">Shop Now</a>
+        </div>
+
+    </section>
+
+    <section id="products" class="products-section">
+
+        <h2>Our Products</h2>
+        <div class="search-box">
+            <input type="text" id="product-search" placeholder="Search products...">
+        </div>
+
+        <div class="product-container">
+
+            <div class="product-card" data-category="headphones">
+                <img src="images/headphones.jpg" alt="Wireless Headphones">
+                <h3>Wireless Headphones</h3>
+                <p class="price">$49.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="view-details">View Details</button>
+            </div>
+
+            <div class="product-card" data-category="smart watches">
+                <img src="images/smartwatch.jpg" alt="Smart Watch">
+                <h3>Smart Watch</h3>
+                <p class="price">$59.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="view-details">View Details</button>
+            </div>
+
+            <div class="product-card" data-category="speakers">
+                <img src="images/speaker.jpg" alt="Bluetooth Speaker">
+                <h3>Bluetooth Speaker</h3>
+                <p class="price">$39.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="view-details">View Details</button>
+            </div>
+            <button id="show-all-products">Show All Products</button>
+
+        </div>
+
+    </section>
+
+    <section class="categories" id="categories">
+        <h2>Shop by Category</h2>
+
+        <div class="category-container">
+
+            <div class="category-card" data-category="headphones">
+                <h3>Headphones</h3>
+                <p>Enjoy high-quality sound</p>
+            </div>
+
+            <div class="category-card" data-category="speakers">
+                <h3>Speakers</h3>
+                <p>Powerful sound for every moment</p>
+            </div>
+
+            <div class="category-card" data-category="smart watches">
+                <h3>Smart Watches</h3>
+                <p>Stay connected & active</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-item">
+            <h3>📱 Phone</h3>
+            <p><a href="tel:+923446437093">+92 344 6437093</a></p>
+        </div>
+
+        <div class="contact-item">
+            <h3>📧 Email</h3>
+            <p><a href="mailto:mainimran427@gmail.com">mainimran427@gmail.com</a></p>
+        </div>
+
+        <div class="contact-item">
+            <h3>💬 WhatsApp</h3>
+            <p><a href="https://wa.me/923446437093">+92 344 6437093</a></p>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 MyStore. All Rights Reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
